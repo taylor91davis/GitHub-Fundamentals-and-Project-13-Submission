@@ -1,7 +1,13 @@
 # GitHub-Fundamentals-and-Project-13-Submission
 Week 13 homework assignments
 The files in this repository were used to configure the network depicted below.
-see diagram folder
+
+![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+{See diagram folder}
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+
+- _TODO: Enter the playbook file._
+- {See Playbook folder}
 
 This document contains the following details:
 Description of the Topology
@@ -17,26 +23,32 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly versatile_, in addition to restricting high traffic___ to the network.
 
 _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?
--Load balancers are useful for redundancy purposes. For example, if there is a D DOs attack or if there's a lot of traffic another server can substitute or alleviate it.
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ system _____.
+-Load balancers are useful when ther is a D DOs attack or if there's a lot of traffic another server can substitute or alleviate it.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data system _logs_.
 
 TODO: What does Filebeat watch for? 
 Filebeat watches and monitors the log files or locations that users specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 TODO: What does Metricbeat record? 
 Metricbeat Collect metrics from your systems and services. From CPU to memory, Redis to NGINX, and much more, It is a lightweight way to send system and service statistics.
 
-Name	Function	IP Address	Operating System
-Jump Box	 Gateway	10.0.0.9	Linux
-Web-1	     DVWA	   10.0.0.8 	Linux
-Web-2	     DVWA    10.0.0.7	  Linux
-Web-3	     DVWA	   10.0.0.10   Linux
+The configuration details of each machine may be found below.
+_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-Access Policies
+| Name     | Function | IP Address | Operating System |   |
+|----------|----------|------------|------------------|---|
+| Jump Box | Gateway  | 10.0.0.1   | Linux            |   |
+| Web-1    | DVWA     | 10.0.0.8   | Linux            |   |
+| Web-2    | DVWA     | 10.0.0.7   | Linux            |   |
+| Web-3    | DVMA     | 10.0.0.10  | Linux            |   |
+
+
+### Access Policies
 The machines on the internal network are not exposed to the public Internet.
 
-Only the Security Group_ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the ELK Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-TODO: Add whitelisted IP addresses {         }Machines within the network can only be accessed by Jump box.
+TODO: Add whitelisted IP addresses {         }
+Machines within the network can only be accessed by Jump box.
 _TODO: Which machine did you allow to access your ELK VM? What was its IP address? -Jump box has access to my ELK VM.
 A summary of the access policies in place can be found in the table below.
 
@@ -45,7 +57,7 @@ A summary of the access policies in place can be found in the table below.
 |ELK Server	|YES	                 |
 
 Elk Configuration
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because there arent any custum codes neeeded. You can just list all the required tasks using a playbook, ansible will do the rest.
 
 TODO: What is the main advantage of automating configuration with Ansible?
 The advantage of automated configuration with Ansible is that it increases efficiency when configuring multiple machines.
