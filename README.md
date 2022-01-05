@@ -42,7 +42,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 10.0.0.15   | Linux            |   |
 | Web-1    | DVWA     | 10.0.0.16   | Linux            |   |
 | Web-2    | DVWA     | 10.0.0.17   | Linux            |   |
-| Web-3    | DVMA     | 10.0.0.18  | Linux            |   |
+| Web-3    | DVMA     | 10.1.0.5  | Linux            |   |
 
 
 ### Access Policies
