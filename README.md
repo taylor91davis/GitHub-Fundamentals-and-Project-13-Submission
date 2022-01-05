@@ -8,6 +8,7 @@ https://raw.githubusercontent.com/taylor91davis/GitHub-Fundamentals-and-Project-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
 - _TODO: Enter the playbook file._
+- https://github.com/taylor91davis/GitHub-Fundamentals-and-Project-13-Submission/blob/ffeb658258f4c7ca71c9a9495a6e62ea7853c1a0/Ansible/Playbook%201
 - {See Playbook folder}
 
 This document contains the following details:
