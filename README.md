@@ -76,6 +76,7 @@ TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., inst
 • Enable elk ports 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+![docker](https://user-images.githubusercontent.com/90580899/148270036-11d1bcd4-2854-4a10-a7ec-e42e47e9c418.png)
 
 
 Target Machines & Beats
