@@ -36,10 +36,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |   |
 |----------|----------|------------|------------------|---|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |   |
-| Web-1    | DVWA     | 10.0.0.8   | Linux            |   |
-| Web-2    | DVWA     | 10.0.0.7   | Linux            |   |
-| Web-3    | DVMA     | 10.0.0.10  | Linux            |   |
+| Jump Box | Gateway  | 10.0.0.15   | Linux            |   |
+| Web-1    | DVWA     | 10.0.0.16   | Linux            |   |
+| Web-2    | DVWA     | 10.0.0.17   | Linux            |   |
+| Web-3    | DVMA     | 10.0.0.18  | Linux            |   |
 
 
 ### Access Policies
@@ -47,14 +47,14 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the ELK Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-TODO: Add whitelisted IP addresses {         }
+TODO: Add whitelisted IP addresses {20.102.79.41}
 Machines within the network can only be accessed by Jump box.
 _TODO: Which machine did you allow to access your ELK VM? What was its IP address? -Jump box has access to my ELK VM.
 A summary of the access policies in place can be found in the table below.
 
 | Name	    |Publicly Accessible	|Allowed IP Addresses
-|Jump Box	  |YES	                 |
-|ELK Server	|YES	                 |
+|Jump Box	  |YES	                 | 20.102.79.41
+|ELK Server	|YES	                 | 20.102.79.41
 
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because there arent any custum codes neeeded. You can just list all the required tasks using a playbook, ansible will do the rest.
@@ -72,7 +72,7 @@ TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., inst
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 TODO: List the IP addresses of the machines you are monitoring
-10.0.0.8, 10.0.0.7, 10.0.0.10
+10.0.0.15, 10.0.0.16, 10.0.0.17
 We have installed the following Beats on these machines:
 
 TODO: Specify which Beats you successfully installed
