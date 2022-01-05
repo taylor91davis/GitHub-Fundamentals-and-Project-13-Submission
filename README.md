@@ -3,6 +3,7 @@ Week 13 homework assignments
 The files in this repository were used to configure the network depicted below.
 
 ### [TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+https://raw.githubusercontent.com/taylor91davis/GitHub-Fundamentals-and-Project-13-Submission/main/Diagram/Capture.PNG
 {See diagram folder}
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
