@@ -54,10 +54,13 @@ TODO: Add whitelisted IP addresses {20.102.79.41}
 Machines within the network can only be accessed by Jump box.
 _TODO: Which machine did you allow to access your ELK VM? What was its IP address? -Jump box has access to my ELK VM.
 A summary of the access policies in place can be found in the table below.
-
-| Name	    |Publicly Accessible	|Allowed IP Addresses
-|Jump Box	  |YES	                 | 20.102.79.41
-|ELK Server	|YES	                 | 20.102.79.41
+| name       | Public Accessible | Allowed IP Address  |
+|------------|-------------------|---------------------|
+| JumpBox    | Yes               | 20.102.79.41        |
+| Elk-Server | Yes               | 13.64.110.13        |
+| Web-1      | No                | 10.0.0.15           |
+| Web-2      | No                | 10.0.0.15           |
+| Web-3      | No                | 10.1.0.4            |
 
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because there arent any custum codes neeeded. You can just list all the required tasks using a playbook, ansible will do the rest.
