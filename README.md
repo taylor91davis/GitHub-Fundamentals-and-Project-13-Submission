@@ -71,6 +71,9 @@ TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., inst
 • Download and launch elk container 
 • Enable elk ports 
 
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
+
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 TODO: List the IP addresses of the machines you are monitoring
