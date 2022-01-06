@@ -5,7 +5,6 @@ The files in this repository were used to configure the network depicted below.
 ### [TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 
 ![This is an image](https://github.com/taylor91davis/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Diagram/Capture.PNG)
-![image](https://user-images.githubusercontent.com/90580899/148313671-0d55c023-fb77-4679-b63b-5009456af9ea.png)
 
 {See diagram folder}
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
