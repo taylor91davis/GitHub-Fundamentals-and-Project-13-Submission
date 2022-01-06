@@ -111,4 +111,4 @@ Update the [ansible-config].
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 update the hostname in the hosts file and then update the [ansible-config] file and then save.
 _Which URL do you navigate to check that the ELK server is running?
-http://[YOUR_ELK-Server_Public]:5601
+http://[13.64.110.13]:5601
