@@ -75,6 +75,7 @@ TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., inst
 • Increase Virtual Memory 
 • Download and launch elk container 
 • Enable elk ports 
+• Downloads and launches the sebp/elk container over ports 5601, 9200, and 5044.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![docker](https://user-images.githubusercontent.com/90580899/148270036-11d1bcd4-2854-4a10-a7ec-e42e47e9c418.png)
@@ -89,7 +90,7 @@ We have installed the following Beats on these machines:
 TODO: Specify which Beats you successfully installed
 Metricbeat & Filebeat 
 
-These Beats allow us to collect the following information from each machine:
+These Beats allow us to collect the following information from each machine:10.1.0.4 
 TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
 Filebeat collects log events, and forwards the information to Elasticsearch or Logstash for indexing.
 Metricbeat collects system metrics from the operating system as well as system services.
